@@ -202,7 +202,7 @@ label {
 /* button style */
 .btn {
 	-moz-user-select: none;
-	background: #e56780 none repeat scroll 0 0;
+	background: #39626D none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 50px;
 	color: #fff;
@@ -263,7 +263,7 @@ label {
 	border-radius: 5px;
 }
 .green-btn {
-	background: #5fcf8e;
+	background: #2EB0B4;
 	border-radius: 5px;
 	padding: 21px 35px;
 	position: relative;
@@ -312,19 +312,19 @@ label {
 
 /* scrollUp */
 #scrollUp {
-	background: #E26586;
+	background: #39626D;
 	height: 50px;
 	width: 50px;
 	right: 50px;
 	bottom: 77px;
 	color: #fff;
 	text-align: center;
-	border-radius: 5px;
+	border-radius: 50px;
 	font-size: 28px;
 	line-height: 50px;
 }
 #scrollUp:hover {
-	background: #444;
+	background: #2EB0B4;
 }
 
 
@@ -440,7 +440,7 @@ label {
 }
 .header-btn .btn {
 	background: #fff;
-	color: #e06687;
+	color: #3F6C78;
 	padding: 19px 45px;
 }
 .header-btn .btn:hover {
@@ -903,7 +903,7 @@ label {
 	padding-top: 230px;
 }
 .t-single-features {
-	padding-right: 100px;
+	padding-right: 95px;
 }
 .t-features-content h4 {
 	font-size: 24px;
@@ -945,7 +945,7 @@ label {
 .features-shape span {
 	height: 18px;
 	width: 18px;
-	background: #129ae0;
+	background: #39626D;
 	display: block;
 	line-height: 1;
 	border-radius: 50%;
@@ -972,7 +972,7 @@ label {
 	animation: animationFramesOne 25s infinite linear;
 }
 .f-shape-three span {
-	background: #5fcf8e;
+	background: #2EB0B4;
 }
 .f-shape-four {
 	right: 46%;
@@ -982,7 +982,7 @@ label {
 .f-shape-four span {
 	height: 10px;
 	width: 10px;
-	background: #5fcf8e;
+	background: #2EB0B4;
 }
 .f-shape-five {
 	right: 115px;
@@ -1125,7 +1125,7 @@ label {
 	text-align: center;
 	line-height: 140px;
 	background: #fff;
-	color: #e26586;
+	color: #39626D;
 	font-size: 30px;
 	border-radius: 50%;
 	z-index: 1;
@@ -1164,7 +1164,7 @@ label {
 	}
 }
 .s-video:hover {
-	color: #e26586;
+	color: #39626D;
 }
 .video-bg-shape::before {
 	content: "";
@@ -1206,11 +1206,11 @@ label {
     margin-bottom: -540px;
 }
 .t-video-area .third-video {
-	background: #5fcf8e;
+	background: #2EB0B4;
 	background-image: unset;
 }
 .t-video-area .third-video::before {
-	background: #5fcf8e;
+	background: #2EB0B4;
 	background-image: unset;
 }
 .six-video-area .third-video {
@@ -1252,6 +1252,9 @@ label {
 	box-shadow: 0px 39px 79px 0px rgba(55, 58, 68, 0.24);
 	border-radius: 10px;
 }
+.choose-padding {
+	padding-bottom: 180px;
+}
 .inner-title span {
 	font-size: 14px;
 	font-weight: 700;
@@ -1266,7 +1269,7 @@ label {
 	color: #9046dd;
 }
 .t-inner-title span {
-	color: #4fa5fa;
+	color: #39626D;
 }
 .f-inner-title span {
 	color: #233590;
@@ -1906,7 +1909,7 @@ label {
 .download-content .btn {
 	background: #fff;
 	border: 2px solid #fff;
-	color: #e06687;
+	color: #3F6C78;
 	margin: 0 10px;
 }
 .download-content .btn:last-child {
@@ -1915,7 +1918,7 @@ label {
 }
 .download-content .btn:last-child:hover {
 	background: #fff;
-	color: #e06687;
+	color: #3F6C78;
 }
 .download-content .btn:hover {
 	background: transparent;
@@ -1953,8 +1956,8 @@ label {
 }
 .download-content .btn.green-btn {
 	color: #fff;
-	background: #5fcf8e;
-	border-color: #5fcf8e;
+	background: #2EB0B4;
+	border-color: #2EB0B4;
 }
 .download-content .btn.green-btn:last-child {
 	color: #fff;
@@ -2211,7 +2214,7 @@ aside.primary-bg {
 	color: #30323d;
 	line-height: 1.8;
 	padding: 46px 80px 46px 40px;
-	border-left: 3px solid #fb4f53;
+	border-left: 3px solid #39626D;
 	margin-bottom: 25px;
 }
 
@@ -2240,10 +2243,10 @@ aside.primary-bg {
 	display: inline-block;
 }
 .fw-link ul li a:hover {
-	color: #E26586;
+	color: #39626D;
 }
 .s-fw-link ul li a:hover {
-	color: #5fcf8e;
+	color: #2EB0B4;
 }
 .f-fw-link ul li a:hover {
 	color: #233590;
@@ -2287,7 +2290,7 @@ aside.primary-bg {
   width: 50px;
   height: 50px;
   border-radius: 100%;
-  background: #fb4f53;
+  background: #39626D;
   -webkit-animation: preloader 1.3s linear infinite;
   animation: preloader 1.3s linear infinite;
 }

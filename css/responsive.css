@@ -651,7 +651,7 @@ ul.navbar-nav {
 @media (max-width: 767px) {
 .navbar-toggler {
 	padding: 8px;
-	border-radius: 2px;
+	border-radius: 50px;
 	border: 2px solid #fff;
 	width: 45px;
 	height: inherit;
@@ -667,6 +667,10 @@ ul.navbar-nav {
 	display: block;
 	margin: auto;
 	margin-top: 3px;
+}
+.logo-navbar {
+	width: 30vw;
+	max-width: 30vw;
 }
 ul.navbar-nav {
 	background: linear-gradient(to right, #E86A7F 0%, #F18B6F 50%, #E86A7F 100%);
@@ -713,8 +717,15 @@ ul.navbar-nav {
 	padding: 30px 0;
 }
 .slider-overflow {
-	padding-top: 160px;
+	padding-top: 7rem;
 	padding-bottom: 80px;
+}
+.slider-content {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+.mobile-center {
+	text-align: center;
 }
 .slider-one-bg {
 	min-height: 822px;
@@ -862,16 +873,24 @@ ul.navbar-nav {
 	background-position: right center;
 }
 .s-main-menu ul.navbar-nav {
-	background: linear-gradient(to right, rgb(244,160,200) 0%, rgb(112,40,228) 100%);
+	background: linear-gradient(to right, #39626d 0%, #2eb0b4 100%);
+}
+.choose-padding {
+	padding-bottom: 50px;
+}
+.choose-wrap{
+	text-align: center;
 }
 .t-main-menu ul.navbar-nav {
-	background: linear-gradient(to left, rgb(42,26,238) 0%, rgb(82,180,252) 100%);
+	background:  linear-gradient(to right, #39626d 0%, #2eb0b4 100%);
+	border-radius: 10px;
+	box-shadow: 0px 39px 79px 0px rgb(55 58 68 / 24%);
 }
 .six-main-menu ul.navbar-nav {
-	background: linear-gradient( to bottom, rgb(57,68,205) 0%, rgb(120,198,245) 100%);
+	background: linear-gradient(to right, #39626d 0%, #2eb0b4 100%);
 }
 .slider-three-bg {
-	min-height: 918px;
+	min-height: 100vh;
 }
 .t-testi-bg {
 	padding-top: 272px;
