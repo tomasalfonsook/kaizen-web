@@ -25,6 +25,17 @@
 -----------------------------------
 */
 
+.body{
+	--color-primary: #39626D;
+	--color-primary-light: #3F6C78;
+	--color-secondary: #2EB0B4;
+	--color-secondary-light: #97D8DA;
+	--color-secondary-dark: #378E96;
+	--color-tertiary: #FFFFFF;
+	--color-quaternary: #272727;
+	--color-quartenary-light: #939393;
+}
+
 
 
 /* 1. Theme default css */
@@ -228,9 +239,9 @@ label {
 .gradient-btn {
 	position: relative;
 	box-shadow: none;
-	background-image: linear-gradient(to right, #DD618E 0%, #F16F70 50%, #DD618E 100%);
-  	background-image: -webkit-linear-gradient(to right, #DD618E 0%, #F16F70 50%, #DD618E 100%);
-	background-image: -ms-linear-gradient(to right, #DD618E 0%, #F16F70 50%, #DD618E 100%);
+	background-image: linear-gradient(to right, #39626d 0%, #2eb0b4 50%, #39626d 100%);
+  	background-image: -webkit-linear-gradient(to right, #39626d 0%, #2eb0b4 50%, #39626d 100%);
+	background-image: -ms-linear-gradient(to right, #39626d 0%, #2eb0b4 50%, #39626d 100%);
 	background-size: 200% auto;
 	color: #fff;
 	-webkit-transition: all 0.4s linear;
@@ -669,34 +680,34 @@ label {
 .f-sshape-three {
 	left: 14%;
 	top: 55%;
-	z-index: -1;
+	z-index: 1;
 	animation: animationFramesOne 15s infinite linear;
 }
 .f-sshape-four {
 	left: 30%;
 	top: 27%;
-	z-index: -1;
+	z-index: 1;
 	animation: animationFramesOne 25s infinite linear;
 }
 .f-sshape-five {
 	left: 47%;
 	top: 27%;
-	z-index: -1;
+	z-index: 1;
 }
 .f-sshape-six {
 	left: 46%;
 	top: 47%;
-	z-index: -1;
+	z-index: 1;
 }
 .f-sshape-seven {
 	left: 44%;
 	top: 60%;
-	z-index: -1;
+	z-index: 1;
 }
 .f-sshape-eight {
 	right: 12%;
 	top: 49px;
-	z-index: -1;
+	z-index: 1;
 }
 .fs-gradient-bg {
 	background-image: -moz-linear-gradient( left, rgb(255,254,253,.502) 0%, rgb(249,212,215,.502) 32%, rgb(208,231,252,.502) 100%);
@@ -2205,6 +2216,10 @@ aside.primary-bg {
 }
 
 /* 14. Footer */
+.logo-footer{
+	max-width: 85%;
+}
+
 .footer-text p {
 	margin-bottom: 0;
 	padding-right: 50px;
