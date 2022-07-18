@@ -27,6 +27,13 @@
 
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+.shape5-responsive{
+	height: 60px;
+}
+.f-sshape-two{
+	left: 40px;
+    top: 110px;
+}
 .video-bg-shape::before {
 	width: 100%;
 }
