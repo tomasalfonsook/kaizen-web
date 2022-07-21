@@ -1923,7 +1923,6 @@ label {
 .pricing-box {
   border: 1px solid #efefef;
   border-radius: 10px;
-  padding-bottom: 50px;
   background: #fff;
   transition: 0.3s;
 }
@@ -1932,8 +1931,7 @@ label {
   padding-bottom: 25px;
   background: #fff;
   transition: 0.3s;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
 }
 .pricing-head h3 {
   font-size: 30px;
@@ -2020,8 +2018,7 @@ label {
     rgb(244, 160, 200) 0%,
     rgb(112, 40, 228) 100%
   );
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px;
   z-index: -1;
   opacity: 0;
   transition: 0.3s;
