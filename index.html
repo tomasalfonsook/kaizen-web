@@ -109,7 +109,7 @@
                   </p>
                   <div class="mobile-center">
                     <a
-                      href="#"
+                      href="#servicios"
                       class="btn gradient-btn wow fadeInUp"
                       data-wow-delay=".6s"
                       >Conocé más</a
@@ -370,11 +370,11 @@
             <div class="col-lg-10">
               <div class="s-video-bg p-relative">
                 <img src="img/images/laptop_video.png" alt="img" />
-                <a
+                <!-- <a
                   href="https://www.youtube.com/watch?v=vKSA_idPZkc"
                   class="s-video third-video popup-video"
                   ><i class="fas fa-play"></i
-                ></a>
+                ></a> -->
               </div>
             </div>
           </div>
@@ -756,7 +756,7 @@
                 </div>
                 <div class="footer-text">
                   <p>
-                    Desde 20XX desarrollamos software de calidad y eficiente
+                    Desde 2009 desarrollamos software de calidad y eficiente
                     para empresas de todo tipo en todo el mundo.
                   </p>
                 </div>
@@ -769,10 +769,10 @@
                 </div>
                 <div class="fw-link s-fw-link">
                   <ul>
-                    <li><a href="#">Sobre nosotros</a></li>
-                    <li><a href="#">Equipo</a></li>
-                    <li><a href="#">Infraestructura</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#nosotros">Sobre nosotros</a></li>
+                    <li><a href="#nosotros">Equipo</a></li>
+                    <li><a href="#nosotros">Infraestructura</a></li>
+                    <li><a href="#clientes">Clientes</a></li>
                   </ul>
                 </div>
               </div>
@@ -784,10 +784,10 @@
                 </div>
                 <div class="fw-link s-fw-link">
                   <ul>
-                    <li><a href="#">Sistemas</a></li>
-                    <li><a href="#">Apps</a></li>
-                    <li><a href="#">Webs</a></li>
-                    <li><a href="#">Redes</a></li>
+                    <li><a href="#servicios">Sistemas</a></li>
+                    <li><a href="#servicios">Apps</a></li>
+                    <li><a href="#servicios">Webs</a></li>
+                    <li><a href="#servicios">Redes</a></li>
                   </ul>
                 </div>
               </div>
@@ -799,10 +799,10 @@
                 </div>
                 <div class="fw-link s-fw-link">
                   <ul>
-                    <li><a href="#">Google Maps</a></li>
-                    <li><a href="#">Email</a></li>
-                    <li><a href="#">WhatsApp</a></li>
-                    <li><a href="#">Teléfono</a></li>
+                    <li><a href="https://goo.gl/maps/i9AgKn8uVGd4fm7f6">Google Maps</a></li>
+                    <li><a href="mailto:info@kaizensoftware.com.ar?subject=Consulta Kaizen Web&body=Quiero comunicarme con ustedes.">Email</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5492657778427&text=Hola! Tengo una consulta.">WhatsApp</a></li>
+                    <li><a href="tel:5492657778427">Teléfono</a></li>
                   </ul>
                 </div>
               </div>
@@ -814,10 +814,10 @@
                 </div>
                 <div class="fw-link s-fw-link">
                   <ul>
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Twitter</a></li>
+                    <li><a href="https://www.instagram.com/kaizen.software/">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/softwarekaizen">Facebook</a></li>
+                    <li><a href="tel:5492657778427">+549 2657-778427
+                    </a></li>
                   </ul>
                 </div>
               </div>
@@ -861,7 +861,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <form>
+            <form id="form-contacto">
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="modal-nombre">Nombre y Apellido</label>
@@ -878,7 +878,7 @@
                     type="tel"
                     class="form-control"
                     id="modal-telefono"
-                    placeholder="Password"
+                    placeholder="Teléfono"
                   />
                 </div>
               </div>
@@ -899,14 +899,38 @@
                 <div class="form-group col-md-6">
                   <label for="inputState">Provincia</label>
                   <select id="inputState" class="form-control">
-                    <option selected>Choose...</option>
-                    <option>...</option>
+                    <option value="Buenos Aires">Buenos Aires</option>
+                    <option value="Catamarca">Catamarca</option>
+                    <option value="Chaco">Chaco</option>
+                    <option value="Chubut">Chubut</option>
+                    <option value="Córdoba">Córdoba</option>
+                    <option value="Corrientes">Corrientes</option>
+                    <option value="Entre Ríos">Entre Ríos</option>
+                    <option value="Formosa">Formosa</option>
+                    <option value="Jujuy">Jujuy</option>
+                    <option value="La Pampa">La Pampa</option>
+                    <option value="La Rioja">La Rioja</option>
+                    <option value="Mendoza">Mendoza</option>
+                    <option value="Misiones">Misiones</option>
+                    <option value="Neuquén">Neuquén</option>
+                    <option value="Río Negro">Río Negro</option>
+                    <option value="Salta">Salta</option>
+                    <option value="San Juan">San Juan</option>
+                    <option value="San Luis" selected>San Luis</option>
+                    <option value="Santa Cruz">Santa Cruz</option>
+                    <option value="Santa Fe">Santa Fe</option>
+                    <option value="Santiago del Estero">
+                      Santiago del Estero
+                    </option>
+                    <option value="Tierra del Fuego">Tierra del Fuego</option>
+                    <option value="Tucumán">Tucumán</option>
                   </select>
                 </div>
               </div>
               <div class="form-group">
                 <label for="inputAddress2">Cual es tu consulta?</label>
                 <textarea
+                  rows="4"
                   type="text"
                   class="form-control"
                   id="inputAddress2"
@@ -915,13 +939,13 @@
               </div>
             </form>
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn gradient-btn" data-dismiss="modal">
-              <i class="fa-brands fa-whatsapp mr-2"></i>
+          <div class="modal-footer modal-contacto">
+            <button type="button" class="btn gradient-btn" id="enviarWhatsapp">
+              <i class="fa-brands fa-whatsapp"></i>
               Whatsapp
             </button>
-            <button type="button" class="btn gradient-btn">
-              <i class="fa-solid fa-envelope mr-2"></i>
+            <button type="button" class="btn gradient-btn" id="enviarCorreo">
+              <i class="fa-solid fa-envelope"></i>
               Mail
             </button>
           </div>
@@ -931,6 +955,87 @@
     <!-- footer-end -->
 
     <!-- JS here -->
+    <script>
+        
+        var enviarWhatsapp = document.getElementById('enviarWhatsapp');
+        var enviarCorreo = document.getElementById('enviarCorreo');
+        
+        enviarWhatsapp.addEventListener("click", function () {
+        var nombre = document.getElementById("modal-nombre").value;
+        var telefono = document.getElementById("modal-telefono").value;
+        var email = document.getElementById("modal-email").value;
+        var ciudad = document.getElementById("inputCity").value;
+        var provincia = document.getElementById("inputState").value;
+        var consulta = document.getElementById("inputAddress2").value;
+
+        if (
+          nombre.length > 0 &&
+          telefono.length > 0 &&
+          email.length > 0 &&
+          ciudad.length > 0 &&
+          provincia.length > 0 &&
+          consulta.length > 0
+        ) {
+          var mensaje =
+            "Hola, mi nombre es " +
+            nombre +
+            ". Tengo una consulta: " +
+            consulta +
+            ". Mis datos de contacto son telefono: " +
+            telefono +
+            " y correo electrónico: " +
+            email +
+            ". Soy de " +
+            ciudad +
+            ", " +
+            provincia +
+            ". Muchas gracias.";
+          var url =
+            "https://api.whatsapp.com/send?phone=5492657778427&text=" + mensaje;
+          window.open(url);
+        } else {
+          alert("Por favor, complete todos los campos.");
+        }
+      });
+
+      enviarCorreo.addEventListener("click", function () {
+        var nombre = document.getElementById("modal-nombre").value;
+        var telefono = document.getElementById("modal-telefono").value;
+        var email = document.getElementById("modal-email").value;
+        var ciudad = document.getElementById("inputCity").value;
+        var provincia = document.getElementById("inputState").value;
+        var consulta = document.getElementById("inputAddress2").value;
+
+        if (
+          nombre.length > 0 &&
+          telefono.length > 0 &&
+          email.length > 0 &&
+          ciudad.length > 0 &&
+          provincia.length > 0 &&
+          consulta.length > 0
+        ) {
+          var mensaje =
+            "Hola, mi nombre es " +
+            nombre +
+            ". Tengo una consulta: " +
+            consulta +
+            ". Mis datos de contacto son telefono: " +
+            telefono +
+            " y correo electrónico: " +
+            email +
+            ". Soy de " +
+            ciudad +
+            ", " +
+            provincia +
+            ". Muchas gracias.";
+          var url =
+            "mailto: " + email + "?subject=Consulta Kaizen Web&body=" + mensaje;
+          window.open(url);
+        } else {
+          alert("Complete todos los campos");
+        }
+      });
+    </script>
     <script
       src="https://kit.fontawesome.com/5170e9f285.js"
       crossorigin="anonymous"

@@ -665,6 +665,11 @@
   .e-main-menu ul.navbar-nav {
     background: #58273d;
   }
+  .modal-contacto{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* small mobile :320px. */
@@ -1180,6 +1185,11 @@
     padding-bottom: 30px;
     background-position: left center;
   }
+  .modal-contacto{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 /* Mobile :768px. */
@@ -1192,6 +1202,11 @@
   }
   .slider-content {
     padding-bottom: 15rem;
+  }
+  .modal-contacto{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -1357,5 +1372,10 @@
   }
   .text-align-sm .testimonial-content h5 {
     padding-right: 25px;
+  }
+  .modal-contacto{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
